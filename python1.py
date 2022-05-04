@@ -25,7 +25,16 @@
     # to display it new value. 
 
     # like so 
+    mv_population= 7000
     mv_population= mv_population + 6000-400
     print(mv_population)
 
     # this will work 
+    # but there is a better and easier way using assignment operators 
+    # instead of reapeting mv_population again use an assignment operator 
+    # += which shows we r increasing the variable in the left with the right 
+
+    # eg
+    mv_population= 7000
+    mv_population += 6000-400
+    print(mv_population)
