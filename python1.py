@@ -13,4 +13,19 @@
     # You can’t use reserved words or built-in identifiers
     # use lowercase letters and underscores to separate words 
 
-   
+   mv_population=6000
+    # 400 moved away out of mv 
+    mv_population=6000-400
+    print(mv_population)
+
+    # this statement will lead to an error because this is not 
+    # html and css.
+
+    # for this statement to work you must assign an assignment operator
+    # to display it new value. 
+
+    # like so 
+    mv_population= mv_population + 6000-400
+    print(mv_population)
+
+    # this will work 
