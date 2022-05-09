@@ -100,3 +100,9 @@
     (and) if both sides are true
     (or) if one side is true
     (not) flips the bool value
+
+    # boolean comparison operators and  logical operators example
+
+    age = 14
+    is_teen = age >12 and age >20
+    print(is_teen)
