@@ -78,4 +78,25 @@
 
      print(y)  #print an in (4.0)
      print(type(y)) # prints type which is (class 'float')
-     
+
+    #  data types
+
+    #  float
+    #  integer
+    #  boolean
+    comparison operators and  logical operators
+
+    # boolean 
+    true
+    false
+    # comparison operators
+    != not equal to
+    == equal to
+    >  greater than
+    <  less than
+    <= less than or equal to
+    >=  greater than or equal to
+    # logical operators 
+    (and) if both sides are true
+    (or) if one side is true
+    (not) flips the bool value
