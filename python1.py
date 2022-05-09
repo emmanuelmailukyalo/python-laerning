@@ -86,23 +86,53 @@
     #  boolean
     comparison operators and  logical operators
 
-    # boolean 
-    true
-    false
-    # comparison operators
-    != not equal to
-    == equal to
-    >  greater than
-    <  less than
-    <= less than or equal to
-    >=  greater than or equal to
-    # logical operators 
-    (and) if both sides are true
-    (or) if one side is true
-    (not) flips the bool value
+    # # boolean 
+    # true
+    # false
+    # # comparison operators
+    # != not equal to
+    # == equal to
+    # >  greater than
+    # <  less than
+    # <= less than or equal to
+    # >=  greater than or equal to
+    # # logical operators 
+    # (and) if both sides are true
+    # (or) if one side is true
+    # (not) flips the bool value
 
     # boolean comparison operators and  logical operators example
 
     age = 14
-    is_teen = age >12 and age >20
+    is_teen = age >12 and age <20
     print(is_teen)
+
+
+# Write code to compare these densities. Is the population of San Francisco more dense than that of Rio de Janeiro? Print True if it is and False if not.
+
+sf_population, sf_area = 864816, 231.89
+rio_population, rio_area = 6453682, 486.5
+
+san_francisco_pop_density = sf_population/sf_area
+rio_de_janeiro_pop_density = rio_population/rio_area
+
+# Write code that prints True if San Francisco is denser than Rio, and False otherwise
+sf_population = 864816
+sf_area = 231.89
+rio_population = 6453682
+rio_area = 486.5
+
+san_francisco_pop_density = sf_population/sf_area
+print(san_francisco_pop_density)
+3729.423433524516
+rio_de_janeiro_pop_density = rio_population/rio_area
+print(rio_de_janeiro_pop_density)
+13265.533401849949
+denser_city = 3729.423433524516 < 13265.53340184994
+print(denser_city)
+
+if (san_francisco_pop_density > rio_de_janeiro_pop_density):
+    print (True)
+else:
+    print (False)
+    
