@@ -75,4 +75,7 @@
      print(type(x))   # to check the type
      #output results to
      #int
+
+     print(y)  #print an in (4.0)
+     print(type(y)) # prints type which is (class 'float')
      
