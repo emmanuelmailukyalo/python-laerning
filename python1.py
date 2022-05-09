@@ -61,3 +61,18 @@
         reservoir_volume -= 2.5e5
         # print the new value of the reservoir_volume variable
         print(reservoir_volume)
+
+    # Changing Variable Values
+    
+    # intergers and floats
+    # int is a whole numbers
+    # while float is a decimal number
+
+     x= int(4.7)   # since 4.7 is not an interger it will be made to be an int resulting to it being (4) 
+     y= float(4)
+
+     print(x)
+     print(type(x))   # to check the type
+     #output results to
+     #int
+     
