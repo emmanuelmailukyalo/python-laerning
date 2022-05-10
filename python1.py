@@ -160,3 +160,8 @@ print(simon)
 firstword = "hello"
 secondword = "world"
 print(firstword + ' ' + secondword)   # the (' ') single quotations reps a space
+
+coconut_count = "34"
+mango_count = "15"
+tfc = coconut_count + mango_count
+print(tfc)
