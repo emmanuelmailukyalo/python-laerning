@@ -136,3 +136,21 @@ if (san_francisco_pop_density > rio_de_janeiro_pop_density):
 else:
     print (False)
     
+
+# string 
+# len     is an inbuilt function to show the length of a string 
+
+# eg 
+
+my_name = Mailu
+print(len(my_name))
+# ouput = 5
+
+# you difine string by using a single or double quotes 
+
+# to ignore a quote in a string use back slash (\) 
+# eg 
+
+simon = "simons\'s bike"  # if we use the single quotes python will close the string
+print(simon)
+# ouput = simon's bike 
