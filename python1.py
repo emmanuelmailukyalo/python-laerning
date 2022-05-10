@@ -172,3 +172,12 @@ print(tfc)
     #  integer
     #  boolean
     #  string
+
+    #u can know which type a value is by using inbuilt function (type)
+    # eg 
+
+    print(type(633))  #<class 'int'>
+    print(type("633"))  #<class 'str'>
+
+    
+ 
