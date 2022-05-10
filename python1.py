@@ -84,6 +84,7 @@
     #  float
     #  integer
     #  boolean
+    #  string
     comparison operators and  logical operators
 
     # # boolean 
@@ -165,3 +166,9 @@ coconut_count = "34"
 mango_count = "15"
 tfc = coconut_count + mango_count
 print(tfc)
+
+
+    #  float
+    #  integer
+    #  boolean
+    #  string
