@@ -154,3 +154,9 @@ print(len(my_name))
 simon = "simons\'s bike"  # if we use the single quotes python will close the string
 print(simon)
 # ouput = simon's bike 
+
+#how to add a space between text
+
+firstword = "hello"
+secondword = "world"
+print(firstword + ' ' + secondword)   # the (' ') single quotations reps a space
