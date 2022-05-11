@@ -198,4 +198,6 @@ print(tfc)
     weekly_sales = str(weekly_sales)  #convert the type back!!
     print("This week's total sales: " + weekly_sales)
     
+    # /n (n is for a new line) 
+
  
