@@ -209,6 +209,11 @@ print(tfc)
     # convince the print() function to change its behavior a bit. 
 
     # keyword arguments 
+    
+    # a keyword argument consists of three elements: a keyword identifying the argument (end here); 
+    # an equal sign (=); and a value assigned to that argument;
+    # any keyword arguments have to be put after the last positional argument (this is very important)
+
     # if i want to write to print functions but i dant want them to be in two line i use "END" 
     # END Eg.
     print("My name is ")
@@ -231,3 +236,19 @@ print(tfc)
     #>>> My name is   Monty Python
     #note the double spaces in the end argument
     #it pushes away the next output in the function 
+
+
+    # keyword arguments
+    #sep
+    #sep for separotor
+
+    print("My", "name", "is", "Monty", sep="-")
+    #>>> My-name-is-Monty
+    
+    #note that the value assigned to that argument will determine what separates the txts
+    #eg 
+    print("My", "name", "is", "Monty", sep="!")
+    #>>> My!name!is!Monty
+    #we used period as the value assigned to the argument
+
+    
