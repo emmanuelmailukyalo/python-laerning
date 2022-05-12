@@ -13,7 +13,11 @@
     # You can’t use reserved words or built-in identifiers
     # use lowercase letters and underscores to separate words 
 
-   mv_population=6000
+   from ast import arguments
+from tkinter import END
+
+
+mv_population=6000
     # 400 moved away out of mv 
     mv_population=6000-400
     print(mv_population)
@@ -200,4 +204,30 @@ print(tfc)
     
     # /n (n is for a new line) 
 
- 
+    # Python offers another mechanism for the passing of 
+    # arguments, which can be helpful when you want to 
+    # convince the print() function to change its behavior a bit. 
+
+    # keyword arguments 
+    # if i want to write to print functions but i dant want them to be in two line i use "END" 
+    # END Eg.
+    print("My name is ")
+    print("Monty Python.")
+    #out put
+    #>>> my name is
+    #>>> monty python
+
+    # end 
+    print("My name is ", end="")
+    print("Monty Python.")
+    #output
+    #>>> my name is Monty python.
+    # end is used to change the behaviour of the print 
+    # by hindering the code to create a new line 
+
+    # here is another examole to show the exact work of end keyword arguments 
+    print("My name is ", end="  ")
+    print("Monty Python.")
+    #>>> My name is   Monty Python
+    #note the double spaces in the end argument
+    #it pushes away the next output in the function 
