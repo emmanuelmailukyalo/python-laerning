@@ -250,5 +250,8 @@ print(tfc)
     print("My", "name", "is", "Monty", sep="!")
     #>>> My!name!is!Monty
     #we used period as the value assigned to the argument
-
     
+    # Both keyword arguments may be mixed in one invocation, just like here below.
+    
+    print("My", "name", "is", sep="_", end="*")
+    print("Monty", "Python.", sep="*", end="*")
