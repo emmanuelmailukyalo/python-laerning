@@ -214,6 +214,10 @@ print(tfc)
     # an equal sign (=); and a value assigned to that argument;
     # any keyword arguments have to be put after the last positional argument (this is very important)
 
+    # Keyword arguments are the ones whose meaning is not dictated by their location, but by a 
+    # special word (keyword) used to identify them.
+
+    # the end parameter specifies what to print at the end of the print statement.
     # if i want to write to print functions but i dant want them to be in two line i use "END" 
     # END Eg.
     print("My name is ")
@@ -252,6 +256,28 @@ print(tfc)
     #we used period as the value assigned to the argument
     
     # Both keyword arguments may be mixed in one invocation, just like here below.
-    
+
     print("My", "name", "is", sep="_", end="*")
     print("Monty", "Python.", sep="*", end="*")
+
+
+#challenge 
+print("    *")
+print("   * *")
+print("  *   *")
+print(" *     *")
+print("***   ***")
+print("  *   *")
+print("  *   *")
+print("  *****")
+
+
+# Try to:
+
+#     minimize the number of print() function invocations by inserting the \n sequence into the strings
+#     make the arrow twice as large (but keep the proportions)
+#     duplicate the arrow, placing both arrows side by side; note: a string may be multiplied by using the following trick: "string" * 2 will produce "stringstring" (we'll tell you more about it soon)
+#     remove any of the quotes, and look carefully at Python's response; pay attention to where Python sees an error - is this the place where the error really exists?
+#     do the same with some of the parentheses;
+#     change any of the print words into something else, differing only in case (e.g., Print) - what happens now?
+#     replace some of the quotes with apostrophes; watch what happens carefully.
