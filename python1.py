@@ -13,11 +13,10 @@
     # You can’t use reserved words or built-in identifiers
     # use lowercase letters and underscores to separate words 
 
-   from ast import arguments
-from tkinter import END
+   
 
 
-mv_population=6000
+    mv_population=6000
     # 400 moved away out of mv 
     mv_population=6000-400
     print(mv_population)
@@ -113,7 +112,8 @@ mv_population=6000
     print(is_teen)
 
 
-# Write code to compare these densities. Is the population of San Francisco more dense than that of Rio de Janeiro? Print True if it is and False if not.
+# Write code to compare these densities. Is the population of San Francisco more dense than that 
+# of Rio de Janeiro? Print True if it is and False if not.
 
 sf_population, sf_area = 864816, 231.89
 rio_population, rio_area = 6453682, 486.5
@@ -147,7 +147,7 @@ else:
 
 # eg 
 
-my_name = Mailu
+my_name = mailu
 print(len(my_name))
 # ouput = 5
 
@@ -276,8 +276,10 @@ print("  *****")
 
 #     minimize the number of print() function invocations by inserting the \n sequence into the strings
 #     make the arrow twice as large (but keep the proportions)
-#     duplicate the arrow, placing both arrows side by side; note: a string may be multiplied by using the following trick: "string" * 2 will produce "stringstring" (we'll tell you more about it soon)
-#     remove any of the quotes, and look carefully at Python's response; pay attention to where Python sees an error - is this the place where the error really exists?
+#     duplicate the arrow, placing both arrows side by side; note: a string may be multiplied by using
+#     the following trick: "string" * 2 will produce "stringstring" (we'll tell you more about it soon)
+#     remove any of the quotes, and look carefully at Python's response; pay attention to where Python 
+#     sees an error - is this the place where the error really exists?
 #     do the same with some of the parentheses;
 #     change any of the print words into something else, differing only in case (e.g., Print) - what happens now?
 #     replace some of the quotes with apostrophes; watch what happens carefully.
