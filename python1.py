@@ -16,7 +16,10 @@
    
 
 
-    mv_population=6000
+    from crypt import methods
+
+
+mv_population=6000
     # 400 moved away out of mv 
     mv_population=6000-400
     print(mv_population)
@@ -283,3 +286,8 @@ print("  *****")
 #     do the same with some of the parentheses;
 #     change any of the print words into something else, differing only in case (e.g., Print) - what happens now?
 #     replace some of the quotes with apostrophes; watch what happens carefully.
+
+
+
+# methods
+# is a function that belong to an object 
