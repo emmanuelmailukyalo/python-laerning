@@ -291,3 +291,9 @@ print("  *****")
 
 # methods
 # is a function that belong to an object 
+
+# format method 
+animal = "dog"
+action = "bite"
+    print("does your {} {}".format(animal, action))
+# >>> does your dog bite
