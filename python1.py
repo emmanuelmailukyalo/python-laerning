@@ -297,3 +297,20 @@ animal = "dog"
 action = "bite"
     print("does your {} {}".format(animal, action))
 # >>> does your dog bite
+
+# split method 
+name = "Mailu"
+    print(name.split())
+# >>>['Mailu']s
+order = "1 2 3 4 5 6"
+    print(order.split()) 
+# >>>['1', '2', '3', '4', '5', '6']
+
+    print(order.split( )) 
+# >>>['1', '2', '3', '4', '5', '6']
+
+    print(order.split('     ')) 
+# >>>['1 2 3 4 5 6']
+    
+print(order.split(' ',2)) 
+# >>>['1', '2', '3 4 5 6']
