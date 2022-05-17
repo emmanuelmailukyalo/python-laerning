@@ -6,7 +6,8 @@
     # / Division
     # % Mod (the remainder after dividing)
     # ** Exponentiation (note that ^ does not do this operation, as you might have seen in other languages)
-    # // Divides and rounds down to the nearest integer
+    # // Divides and rounds down to the nearest integer 
+    #           (Integer division can also be called floor division. You will definitely come across this term in the future.)
 
 # variables
     # Only use ordinary letters, numbers and underscores in your variable names. They can’t have spaces, and need to start with a letter or underscore.
