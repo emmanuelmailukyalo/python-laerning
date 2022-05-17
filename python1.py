@@ -69,6 +69,17 @@ mv_population=6000
         # print the new value of the reservoir_volume variable
         print(reservoir_volume)
 
+
+    # exponantiantion 
+    print(2 ** 2 ** 3)
+    # >>>256 
+
+        # 2 ** 3 → 8; 2 ** 8 → 256
+        # The result clearly shows that the exponentiation operator uses right-sided binding. 
+
+
+        
+
     # Changing Variable Values
     
     # intergers and floats
