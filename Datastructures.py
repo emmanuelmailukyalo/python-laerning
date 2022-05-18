@@ -52,3 +52,11 @@ print(5 not in [1,2,3,4,5])
 
 print(6 in [1,2,3,4,5])
 # >>> false 
+
+VINIX = ['C', 'MA', 'BA', 'PG', 'CSCO', 'VZ', 'PFE', 'HD', 'INTC', 'T', 'V',
+        'UNH','WFC', 'CVX', 'BAC', 'JNJ','JPM', 'FB', 'AMZN', 'MSFT', 'AAPL'
+        'GOOGL', 'GOOG', 'BRK.B', 'XOM', ]
+
+print('C' in VINIX)  # true
+print('gbdg' in VINIX) # false
+print('gbg' not in VINIX) # true
