@@ -34,6 +34,8 @@ print(numbers[0:2])
 
 
 # in or not in operators
+# in evaluates if an element exists within our list
+# not in evaluates if an element does not exist within our list
 # this operator return a bool as output
 
 print("this" in "this is a great morning")
