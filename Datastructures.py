@@ -31,3 +31,22 @@ print(numbers[0:1])   # we expect the output to be [1, 2] but the upper index is
 [1]
 print(numbers[0:2]) 
 [1, 2]
+
+
+# in or not in operators
+# this operator return a bool as output
+
+print("this" in "this is a great morning")
+# >>> True
+
+print("in" in "this is a great morning")
+# >>> true
+
+print("ea" in "this is a great morning")
+#>>> true 
+
+print(5 not in [1,2,3,4,5])
+# >>> false 
+
+print(6 in [1,2,3,4,5])
+# >>> false 
