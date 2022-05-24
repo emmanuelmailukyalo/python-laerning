@@ -7,6 +7,8 @@
 # list example
 
 from ntpath import join
+from pickle import APPEND
+from readline import append_history_file
 
 
 numbers = [1,2,3,4,5,6,7,8,9,10]
@@ -107,3 +109,11 @@ my_string = 'mailu'
 name = "-".join(["ab", 'pq', 'rs'])
 print(name)
 # ab-pq-rs
+
+# APPEND 
+
+letters = ['a','b','c']
+letters.append('z')
+print(letters)
+
+#[a,b,c,z]
