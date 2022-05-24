@@ -6,6 +6,9 @@
 
 # list example
 
+from ntpath import join
+
+
 numbers = [1,2,3,4,5,6,7,8,9,10]
 print(numbers[0])
 # >>> 1
@@ -99,3 +102,8 @@ my_string = 'mailu'
     
     print(max(numbers))
 #6
+
+# join
+name = "-".join(["ab", 'pq', 'rs'])
+print(name)
+# ab-pq-rs
