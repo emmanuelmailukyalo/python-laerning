@@ -92,3 +92,8 @@ my_string = 'mailu'
 #i
     print(sorted(student))
 #['i', 'j', 'm']
+
+    numbers = [1,2,3,4,5,6]
+    print(sorted(numbers))
+#[1, 2, 3, 4, 5, 6]
+    
