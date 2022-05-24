@@ -68,3 +68,27 @@ my_lst[0] = 'one'
 print(my_lst)
 
 # >>> ['one',2,3,4,5]
+# in every data type ask yourself if it is MUTABLE OR ORDERD 
+
+# strings are ordered but not mutable 
+# they are immutable 
+
+my_string = 'mailu'
+    print(my_string[1])
+# >>> a   
+
+    name = "jim"
+    student = name
+    name = "tim"
+    print(name)
+#tim
+    print(student)
+#jim 
+    print(len(student))
+#3   
+    print(max(student))
+#m   
+    print(min(student)) 
+#i
+    print(sorted(student))
+#['i', 'j', 'm']
