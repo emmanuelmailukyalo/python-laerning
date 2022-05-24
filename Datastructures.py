@@ -60,3 +60,11 @@ VINIX = ['C', 'MA', 'BA', 'PG', 'CSCO', 'VZ', 'PFE', 'HD', 'INTC', 'T', 'V',
 print('C' in VINIX)  # true
 print('gbdg' in VINIX) # false
 print('gbg' not in VINIX) # true
+
+# you can replace obleccts in strings1
+# eg 
+my_lst = [1,2,3,4,5]
+my_lst[0] = 'one'
+print(my_lst)
+
+# >>> ['one',2,3,4,5]
