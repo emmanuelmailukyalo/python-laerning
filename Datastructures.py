@@ -5,6 +5,9 @@
 #it can contain all data types
 
 # list example
+from distutils.log import error
+
+
 numbers = [1,2,3,4,5,6,7,8,9,10]
 print(numbers[0])
 # >>> 1
@@ -177,3 +180,16 @@ random_dictionary = {'abc':1, 5:"hey"}
 
 print(random_dictionary['abc'])
 # 1
+
+# what if i want to look for a value in a key but the key is not present 
+# what will be the output , a bool or an error 
+
+# lets check it out, shall we 
+
+print(random_dictionary['boy'])
+#error
+
+# to check if an key is in an element use the (in,not in) function or the (get) function 
+# eg 
+print("boy" in random_dictionary)
+# false
