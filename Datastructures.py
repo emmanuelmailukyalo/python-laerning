@@ -95,6 +95,9 @@ my_string = 'mailu'
 #m   
     print(min(student)) 
 #i
+
+
+        # sorted  data structure
     print(sorted(student))
 #['i', 'j', 'm']
 
