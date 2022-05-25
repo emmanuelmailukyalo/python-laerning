@@ -130,3 +130,9 @@ print(tup_a == tup_b)
 #True
 print(tup_a[1])
 #2   
+
+
+# sets 
+# sets are unorderd meaning there is none which is in front and another at the back 
+# sets are mutable 
+# one application of sets is to quickly remove duplicates from a list 
