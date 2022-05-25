@@ -125,3 +125,11 @@ print(letters)
 
 dimensions = 23, 45, 56
 length, width, height = dimensions  #unpacking tuples
+
+# eg 2  
+tup_a = 1,2
+tup_b = (1,2)
+print(tup_a == tup_b)
+#True
+print(tup_a[1])
+#2   
