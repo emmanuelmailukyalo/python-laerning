@@ -193,3 +193,7 @@ print(random_dictionary['boy'])
 # eg 
 print("boy" in random_dictionary)
 # false
+
+# using get 
+print(random_dictionary.get('boy'))
+#none
