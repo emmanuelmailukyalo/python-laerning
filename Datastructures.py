@@ -136,3 +136,12 @@ print(tup_a[1])
 # sets are unorderd meaning there is none which is in front and another at the back 
 # sets are mutable 
 # one application of sets is to quickly remove duplicates from a list 
+
+# sets e.g 
+
+numbers = [1,2,3,5,8,2,4,5,1,3]  
+# there are duplicates of the numbers (1,2,3,5)
+unique_figs = set(numbers)
+print(unique_figs)
+# {1, 2, 3, 4, 5, 8}
+# the set function removes duplicates
