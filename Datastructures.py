@@ -145,3 +145,8 @@ unique_figs = set(numbers)
 print(unique_figs)
 # {1, 2, 3, 4, 5, 8}
 # the set function removes duplicates
+
+# sets can support the 'in' function 
+
+print(9 in numbers)  # checks if 9 is in the variable numbers
+# false
