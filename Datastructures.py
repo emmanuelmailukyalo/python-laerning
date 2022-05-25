@@ -150,3 +150,9 @@ print(unique_figs)
 
 print(9 in numbers)  # checks if 9 is in the variable numbers
 # false
+
+# sets are mutable meaning u can add elements to it 
+# eg 
+unique_figs.add(9)
+print(unique_figs)
+{1, 2, 3, 4, 5, 8, 9}
