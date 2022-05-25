@@ -117,3 +117,11 @@ letters.append('z')
 print(letters)
 
 #[a,b,c,z]
+
+# tuples  
+#they are immutable but orderd
+#iin tuples there is no need to add parenthesis []
+# eg 
+
+dimensions = 23, 45, 56
+length, width, height = dimensions  #unpacking tuples
