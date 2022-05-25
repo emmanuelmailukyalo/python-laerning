@@ -167,3 +167,13 @@ print(len(a) - len(b))
 # dictionaries and identity operators 
 # dictionary  
 # dictionary is mutable 
+
+random_dictionary = {'abc':1, 5:"hey"}
+
+# the dictionary above has two keys ('abc') and (5) 
+# the dictionary above has 2 values (1)and (hey) 
+
+# to look for the values in a dictionary use square brackets like below  
+
+print(random_dictionary['abc'])
+# 1
