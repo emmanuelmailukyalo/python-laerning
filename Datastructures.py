@@ -156,3 +156,10 @@ print(9 in numbers)  # checks if 9 is in the variable numbers
 unique_figs.add(9)
 print(unique_figs)
 {1, 2, 3, 4, 5, 8, 9}
+
+
+# arithmetics using sets 
+a = [1,2,2,3,3,3,4,4,4,4]
+b = set(a)
+print(len(a) - len(b))
+# 6 
