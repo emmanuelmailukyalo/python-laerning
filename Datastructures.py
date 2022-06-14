@@ -197,3 +197,6 @@ print("boy" in random_dictionary)
 # using get 
 print(random_dictionary.get('boy'))
 #none
+
+x = int(input(11))
+print (x)
