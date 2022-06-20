@@ -201,3 +201,10 @@ print("boy" in random_dictionary)
 # using get 
 print(random_dictionary.get('boy'))
 #none
+
+
+ #data structures are very useful in collecting, storing and working with more 
+ # information than simple strings or integers
+
+
+ 
