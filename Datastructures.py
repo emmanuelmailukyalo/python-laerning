@@ -1,4 +1,8 @@
+            # data structures 
+    # data structures 
 # data structures 
+ #data structures are very useful in collecting, storing and working with more 
+ # information than simple strings or integers
 
                 # lists 
 # lists are is defined using square brackets it has data separated by a comma
@@ -205,6 +209,3 @@ print(random_dictionary.get('boy'))
 
  #data structures are very useful in collecting, storing and working with more 
  # information than simple strings or integers
-
-
- 
