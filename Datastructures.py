@@ -156,6 +156,7 @@ print(9 in numbers)  # checks if 9 is in the variable numbers
 # false
 
 # sets are mutable meaning u can add elements to it 
+#You can add elements to sets using the add method
 # eg 
 unique_figs.add(9)
 print(unique_figs)
@@ -198,6 +199,3 @@ print("boy" in random_dictionary)
 # using get 
 print(random_dictionary.get('boy'))
 #none
-
-x = int(input(11))
-print (x)
