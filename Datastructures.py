@@ -121,7 +121,7 @@ print(letters)
 
                 # tuples  
 #they are immutable but orderd
-#iin tuples there is no need to add parenthesis []
+#in tuples there is no need to add parenthesis []
 # eg 
 
 dimensions = 23, 45, 56
