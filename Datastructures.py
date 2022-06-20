@@ -1,6 +1,6 @@
 # data structures 
 
-# lists 
+                # lists 
 # lists are is defined using square brackets it has data separated by a comma
 #it can contain all data types
 
@@ -16,7 +16,7 @@ print(numbers[2])
 print(numbers[-1])  # -1 starts from behind
 # >>> 10
 
-# slice 
+                # slice 
 #slice eg
 
 print(numbers[:5])   #outputs
@@ -105,7 +105,8 @@ my_string = 'mailu'
     print(max(numbers))
 #6
 
-# join
+
+        # join
 name = "-".join(["ab", 'pq', 'rs'])
 print(name)
 # ab-pq-rs
@@ -118,7 +119,7 @@ print(letters)
 
 #[a,b,c,z]
 
-# tuples  
+                # tuples  
 #they are immutable but orderd
 #iin tuples there is no need to add parenthesis []
 # eg 
@@ -135,7 +136,7 @@ print(tup_a[1])
 #2   
 
 
-# sets 
+                # sets 
 # sets are unorderd meaning there is none which is in front and another at the back 
 # sets are mutable 
 # one application of sets is to quickly remove duplicates from a list 
@@ -161,14 +162,14 @@ print(unique_figs)
 {1, 2, 3, 4, 5, 8, 9}
 
 
-# arithmetics using sets 
+                # arithmetics using sets 
 a = [1,2,2,3,3,3,4,4,4,4]
 b = set(a)
 print(len(a) - len(b))
 # 6 
 
-# dictionaries and identity operators 
-# dictionary  
+            # dictionaries and identity operators 
+            # dictionary  
 # dictionary is mutable 
 
 random_dictionary = {'abc':1, 5:"hey"}
