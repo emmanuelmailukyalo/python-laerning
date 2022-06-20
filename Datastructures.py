@@ -171,7 +171,7 @@ print(len(a) - len(b))
 
             # dictionaries and identity operators 
             # dictionary  
-# dictionary is mutable 
+# dictionary is mutable  and unorderd
 
 random_dictionary = {'abc':1, 5:"hey"}
 
