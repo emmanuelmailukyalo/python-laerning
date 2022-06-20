@@ -10,6 +10,9 @@
 
 # list example
 from distutils.log import error
+from os import access
+from tkinter import _Compound
+from xml.dom.minidom import Element
 
 
 numbers = [1,2,3,4,5,6,7,8,9,10]
@@ -80,26 +83,26 @@ print(my_lst)
 # they are immutable 
 
 my_string = 'mailu'
-    print(my_string[1])
+print(my_string[1])
 # >>> a   
 
-    name = "jim"
-    student = name
-    name = "tim"
-    print(name)
+name = "jim"
+student = name
+name = "tim"
+print(name)
 #tim
-    print(student)
+print(student)
 #jim 
-    print(len(student))
+print(len(student))
 #3   
-    print(max(student))
+print(max(student))
 #m   
-    print(min(student)) 
+print(min(student)) 
 #i
 
 
         # sorted  data structure
-    print(sorted(student))
+print(sorted(student))
 #['i', 'j', 'm']
 
     numbers = [1,2,3,4,5,6]
@@ -111,15 +114,15 @@ my_string = 'mailu'
 
 
         # join
-name = "-".join(["ab", 'pq', 'rs'])
-print(name)
+    douse = "-".join(["ab", 'pq', 'rs'])
+    print(douse)
 # ab-pq-rs
 
 # APPEND 
 
-letters = ['a','b','c']
-letters.append('z')
-print(letters)
+    letters = ['a','b','c']
+    letters.append('z')
+    print(letters)
 
 #[a,b,c,z]
 
@@ -128,8 +131,8 @@ print(letters)
 #in tuples there is no need to add parenthesis []
 # eg 
 
-dimensions = 23, 45, 56
-length, width, height = dimensions  #unpacking tuples
+    dimensions = 23, 45, 56
+    length, width, height = dimensions  #unpacking tuples
 
 # eg 2  
 tup_a = 1,2
@@ -143,6 +146,7 @@ print(tup_a[1])
                 # sets 
 # sets are unordered meaning there is none which is in front and another at the back 
 # sets are mutable 
+# note the paranthesis sets uses [] 
 # one application of sets is to quickly remove duplicates from a list 
 
 # sets e.g 
@@ -207,5 +211,34 @@ print(random_dictionary.get('boy'))
 #none
 
 
- #data structures are very useful in collecting, storing and working with more 
- # information than simple strings or integers
+
+# Compound dictionaries 
+# this are dictionaries within a dictionary so as to provide for more information 
+
+elements = {"hydrogen": {"number": 1,
+                         "weight": 1.00794,
+                         "symbol": "H"},
+              "helium": {"number": 2,
+                         "weight": 4.002602,
+                         "symbol": "He"}}
+
+# we can access any element 
+
+helium = elements["helium"]
+# get the helium dictionary
+#{'number': 2, 'weight': 4.002602, 'symbol': 'He'}
+
+# since dictionaries are mutable u can add an element
+#eg
+
+oxygen =  {'number':5,
+            'weight':15.999,
+            'symbol':'O'}
+
+# how to add to a dictionary 
+
+elements['oxygen'] = oxygen
+print(elements)
+# {'hydrogen': {'number': 1, 'weight': 1.00794, 'symbol': 'H'}, 
+# 'helium': {'number': 2, 'weight': 4.002602, 'symbol': 'He'}, 
+# 'oxygen': {'number': 5, 'weight': 15.999, 'symbol': 'O'}}
