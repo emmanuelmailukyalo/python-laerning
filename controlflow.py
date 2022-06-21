@@ -1,6 +1,9 @@
             # conditional statements 
         # if statements 
 
+from doctest import Example
+
+
 phone_balance = 3
 bank_balance = 100
 
@@ -49,5 +52,24 @@ elif points <= 180:
 else:
     result = "Congratulations! You won a penguin!"
 
+
+print(result)
+
+#guess my number example
+# # another elif Example
+# You decide you want to play a game where you are hiding a number from someone.
+# Store this number in a variable called 'answer'. Another user provides 
+# a number called 'guess'. By comparing 'guess' to 'answer',
+# you inform the user if their guess is too high or too low.
+
+answer = 8
+guess = 3
+
+if guess <= 5:
+    result = "Oops!  Your guess was too low."
+elif guess > 8:
+    result = "Oops!  Your guess was too high."
+elif guess == 8:
+    result = "Nice!  Your guess matched the answer!"
 
 print(result)
