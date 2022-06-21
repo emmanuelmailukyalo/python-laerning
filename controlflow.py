@@ -35,3 +35,19 @@ if phone_balance < 5:
 # based on the value of points. If they've won a prize, the message should state 
 # "Congratulations! You won a [prize name]!" with the prize name. 
 # If there's no prize, the message should state "Oh dear, no prize this time."
+
+points = 174
+
+# write your if statement here
+
+if points <= 50:
+    result = "Congratulations! You won a wooden rabbit!"
+elif points <= 150:
+    result = "Oh dear, no prize this time."
+elif points <= 180:
+    result = "Congratulations! You won a wafer-thin mint!"
+else:
+    result = "Congratulations! You won a penguin!"
+
+
+print(result)
