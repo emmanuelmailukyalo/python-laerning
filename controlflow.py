@@ -102,3 +102,11 @@ elif state == 'NY':
 
 
 print(result)
+
+# kiasi 
+weather =  "mvua"
+
+if weather == "mvua":
+    print("kuna nyesha")
+else :
+    print ("jua mob")
