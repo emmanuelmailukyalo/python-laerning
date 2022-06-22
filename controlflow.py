@@ -133,7 +133,6 @@ elif number %5==0:
 else:
     print("number is odd")
 
-
 # Write a program to check whether a number is divisible by 7 or not. 
 number = 14 
 
