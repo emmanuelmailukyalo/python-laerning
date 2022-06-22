@@ -171,3 +171,14 @@ print(total_bill)
 #          > 80 and <= 90                               B
 #          >= 60 and <= 80                              C
 #          below 60                                     D
+
+grade = 79
+
+if grade >= 91:
+    print("A")
+elif grade > 80 and grade <= 90:
+    print("B")
+elif grade >= 60 and grade <=80:
+    print("C")
+elif grade <=59:
+    print("D")
