@@ -110,3 +110,15 @@ if weather == "mvua":
     print("kuna nyesha")
 else :
     print ("jua mob")
+
+
+# Write a program to check whether a person is eligible for voting or not.
+#  (accept age from user)
+
+age = 32
+
+if age >= 18:
+    print("you are eligible to vote")
+else:
+    print("not eligible to vote")
+    
