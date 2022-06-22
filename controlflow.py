@@ -109,7 +109,7 @@ weather =  "mvua"
 if weather == "mvua":
     print("kuna nyesha")
 else :
-    print ("jua mob")
+    print ("kuna jua")
 
 
 # Write a program to check whether a person is eligible for voting or not.
@@ -121,4 +121,23 @@ if age >= 18:
     print("you are eligible to vote")
 else:
     print("not eligible to vote")
-    
+
+
+# Write a program to check whether a number entered by user is even or odd or divisible by 5. 
+number = 3
+
+if number %2==0:
+    print("number is even")
+elif number %5==0:
+    print("number is divisible by 5")
+else:
+    print("number is odd")
+
+
+# Write a program to check whether a number is divisible by 7 or not. 
+number = 14 
+
+if number %7==0:
+    print("divisible by seven")
+else:
+    print("not divisible by 7")
