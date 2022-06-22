@@ -1,7 +1,7 @@
             # conditional statements 
         # if statements 
 
-from doctest import Example
+
 
 
 phone_balance = 3
@@ -182,3 +182,17 @@ elif grade >= 60 and grade <=80:
     print("C")
 elif grade <=59:
     print("D")
+
+
+# nested if statements 
+
+weather = "good"
+restaurant = "closed"
+
+if weather == "good":
+    if restaurant == "opened":
+        print("go for lunch")
+    else:
+        print("eat_sandwich")
+else:
+   print(" stay_at_home")
