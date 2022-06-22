@@ -103,7 +103,7 @@ mv_population=6000
     #  integer
     #  boolean
     #  string
-    comparison operators and  logical operators
+    #  comparison operators and  logical operators
 
     # # boolean 
     # true
@@ -162,7 +162,7 @@ else:
 
 # eg 
 
-my_name = mailu
+my_name = "mailu"
 print(len(my_name))
 # ouput = 5
 
