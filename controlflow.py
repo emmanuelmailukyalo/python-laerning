@@ -4,6 +4,9 @@
 
 
 
+from ast import If
+
+
 phone_balance = 3
 bank_balance = 100
 
@@ -196,3 +199,19 @@ if weather == "good":
         print("eat_sandwich")
 else:
    print(" stay_at_home")
+
+# identify the larger of 3 numbers:
+
+number_1 = 5
+number_2 = 3
+number_3 = 7
+
+largest_number = number_1 
+
+if number_1 > number_2:
+    largest_number = number_2
+
+if largest_number < number_3:
+    largest_number = number_3
+
+print("largest number is:", largest_number)
