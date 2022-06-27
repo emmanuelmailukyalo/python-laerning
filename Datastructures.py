@@ -106,24 +106,24 @@ print(min(student))
 print(sorted(student))
 #['i', 'j', 'm']
 
-    numbers = [1,2,3,4,5,6]
-    print(sorted(numbers))
+numbers = [1,2,3,4,5,6]
+print(sorted(numbers))
 #[1, 2, 3, 4, 5, 6]
     
-    print(max(numbers))
+print(max(numbers))
 #6
 
 
         # join
-    douse = "-".join(["ab", 'pq', 'rs'])
-    print(douse)
+douse = "-".join(["ab", 'pq', 'rs'])
+print(douse)
 # ab-pq-rs
 
 # APPEND 
 
-    letters = ['a','b','c']
-    letters.append('z')
-    print(letters)
+letters = ['a','b','c']
+letters.append('z')
+print(letters)
 
 #[a,b,c,z]
 
@@ -132,8 +132,8 @@ print(sorted(student))
 #in tuples there is no need to add parenthesis []
 # eg 
 
-    dimensions = 23, 45, 56
-    length, width, height = dimensions  #unpacking tuples
+dimensions = 23, 45, 56
+length, width, height = dimensions  #unpacking tuples
 
 # eg 2  
 tup_a = 1,2
