@@ -187,6 +187,12 @@ random_dictionary = {'abc':1, 5:"hey"}
 # the dictionary above has two keys ('abc') and (5) 
 # the dictionary above has 2 values (1)and (hey) 
 
+#   here is a less confusing example 
+
+less_confusing_dictionary = {'cars':7, 'chopper':2}
+
+# {'key':value} 
+
 #note the paranthesis of the dictionaries is {}
 
 # to look for the values in a dictionary use square brackets like below  
