@@ -301,7 +301,7 @@ print(sorted_keys[-1])
 # summary on data structures 
 
 # Data Structure 	Ordered 	Mutable 	Constructor 	Example
-# List 	                Yes 	    Yes 	[ ] or list() 	[5.7, 4, 'yes', 5.7]
-# Tuple 	            Yes 	    No 	    ( ) or tuple() 	(5.7, 4, 'yes', 5.7)
-# Set 	                No 	        Yes 	         set() 	{5.7, 4, 'yes'}
-# Dictionary 	        No 	        No** 	{ } or dict() 	{'Jun': 75, 'Jul': 89}
+# List 	                Yes 	        Yes 	       [ ] or list() 	[5.7, 4, 'yes', 5.7]
+# Tuple 	        Yes 	        No 	    ( ) or tuple() 	(5.7, 4, 'yes', 5.7)
+# Set 	                No 	        Yes 	         set() 	        {5.7, 4, 'yes'}
+# Dictionary 	        No 	        No** 	{ } or dict() 	        {'Jun': 75, 'Jul': 89}
