@@ -274,3 +274,14 @@ sentence = ["the", "quick", "brown", "fox", "jumped", "over", "the", "lazy", "do
 
 for text in sentence:
     print(text, end="\n")
+
+    # output 
+# the
+# quick
+# brown
+# fox
+# jumped
+# over
+# the
+# lazy
+# dog
