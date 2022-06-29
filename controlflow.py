@@ -293,3 +293,11 @@ for text in sentence:
 
 for i in range(5,31,5):
     print(i, end="\n")
+
+#     # output
+# 5
+# 10
+# 15
+# 20
+# 25
+# 30
