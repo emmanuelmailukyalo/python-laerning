@@ -395,3 +395,14 @@ for item in items:
 html_str += "</ul>"
 
 print(html_str)
+
+
+# quiz make the colors list to become lower case
+
+colors = ['Red', 'Blue', 'Green', 'Purple']
+lower_colors = [ ]
+
+for color in colors:
+    lower_colors.append(color.lower())
+
+print(lower_colors)
