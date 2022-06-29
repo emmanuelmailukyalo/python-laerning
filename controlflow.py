@@ -288,4 +288,5 @@ for text in sentence:
 
 Practice: Multiples of 5
 
-# Write a for loop below that will print out every whole number that is a multiple of 5 and less than or equal to 30.
+# Write a for loop below that will print out every whole number 
+# that is a multiple of 5 and less than or equal to 30.
