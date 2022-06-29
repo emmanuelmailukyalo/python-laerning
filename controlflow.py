@@ -217,7 +217,6 @@ if largest_number < number_3:
 print("largest number is:", largest_number)
 
 
-    # for loop 
 
 # question example  
 
