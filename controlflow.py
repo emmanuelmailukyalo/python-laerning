@@ -5,6 +5,7 @@
 
 
 from ast import If
+from doctest import set_unittest_reportflags
 from optparse import Values
 
 
@@ -483,3 +484,17 @@ for key, values in cast.items():
 # Julia Louis-Dreyfus Elaine Benes
 # Jason Alexander George Costanza
 # Michael Richards Cosmo Kramer
+
+# lets format the output so that it could make sense 
+# since both the keys and values are both strings 
+#it could be different to differentiate  what is key and what is value
+# we shall use the format function to perform the task
+
+for key, value in cast.items():
+    print("Actor: {}    Role: {}".format(key, value))
+
+# this outputs 
+# Actor: Jerry Seinfeld    Role: Jerry Seinfeld
+# Actor: Julia Louis-Dreyfus    Role: Elaine Benes
+# Actor: Jason Alexander    Role: George Costanza
+# Actor: Michael Richards    Role: Cosmo Kramer
