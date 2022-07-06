@@ -437,3 +437,10 @@ print(word_counter)
 # output
 # {'great': 2, 'expectations': 1, 'the': 2, 'adventures': 2, 'of': 2, 
 # 'sherlock': 1, 'holmes': 1, 'gasby': 1, 'hamlet': 1, 'huckleberry': 1, 'fin': 1}
+
+# to get the key of a value in a dictionary use 
+
+print(word_counter['great'])
+
+# output
+# 2
