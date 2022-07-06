@@ -457,8 +457,8 @@ cast = {
            "Michael Richards": "Cosmo Kramer"
        }
 
-for actors in cast:
-    print(actors)
+for key in cast:
+    print(key)
 
 
 # output
