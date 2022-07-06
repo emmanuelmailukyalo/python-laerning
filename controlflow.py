@@ -466,3 +466,6 @@ for key in cast:
 # Julia Louis-Dreyfus
 # Jason Alexander
 # Michael Richards
+
+# note this example only prints out the keys and not the values
+# yet the dictiolnary has both 
