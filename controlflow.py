@@ -444,3 +444,6 @@ print(word_counter['great'])
 
 # output
 # 2
+
+# or use the get function to do the same 
+print(word_counter.get('great'))
