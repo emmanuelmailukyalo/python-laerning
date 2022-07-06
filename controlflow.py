@@ -7,6 +7,7 @@
 from ast import If
 from doctest import set_unittest_reportflags
 from optparse import Values
+from subprocess import STARTF_USESHOWWINDOW
 
 
 phone_balance = 3
@@ -498,3 +499,32 @@ for key, value in cast.items():
 # Actor: Julia Louis-Dreyfus    Role: Elaine Benes
 # Actor: Jason Alexander    Role: George Costanza
 # Actor: Michael Richards    Role: Cosmo Kramer
+
+# i want to convert a list to a dictionary and merge it into a dictionary 
+# the problem is that the dictionary is already defined 
+# it has keys and values but the list doesn't have values only keys 
+
+basket_items = {'apples': 4, 'oranges': 19, 'kites': 3, 'sandwiches': 8}
+fruits = ['apples', 'oranges', 'pears', 'peaches', 'grapes', 'bananas']
+
+fruits.extend(basket_items)
+fruits = {
+            'pears':1,
+            'peaches':1,
+            'grapes':1,
+            'bananas':1,
+            'apples': 4,
+            'oranges': 19,
+            'kites': 3,
+            'sandwiches': 8
+         }
+print(fruits)
+
+
+# output 
+{'pears': 1, 'peaches': 1, 'grapes': 1, 'bananas': 1, 
+'apples': 4, 'oranges': 19, 'kites': 3, 'sandwiches': 8} 
+
+# use the get function to get the key of sandwiches 
+
+print(fruits.get('sandwiches'))
