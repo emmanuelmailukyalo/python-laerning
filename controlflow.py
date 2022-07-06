@@ -383,7 +383,10 @@ print(count)
         # <li>second string</li>
         # </ul>
 
-# That is, the string's first line should be the opening tag <ul>. Following that is one line per element in the source list, surrounded by <li> and </li> tags. The final line of the string should be the closing tag </ul>.
+# That is, the string's first line should be the opening tag <ul>. 
+# Following that is one line per element in the source list, 
+# surrounded by <li> and </li> tags. The final line of the string should be 
+# the closing tag </ul>.
 
 
 items = ['first string', 'second string']
