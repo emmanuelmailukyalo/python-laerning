@@ -411,3 +411,29 @@ for color in colors:
 print(lower_colors)
 
             # counter dictionary 
+
+
+book_title =  ['great', 'expectations','the', 'adventures', 'of', 'sherlock',
+                'holmes','the','great','gasby','hamlet','adventures','of',
+                'huckleberry','fin']
+
+# create an empty dictionary  called word-counter
+
+word_counter = {}
+
+# Iterate through each element in the list. If an element is already included
+# in the dictionary, add 1 to its value. If not, add the element to the dictionary
+#  and set its value to 1.
+
+
+for word in book_title:
+    if word not in word_counter:
+        word_counter[word] = 1
+    else:
+        word_counter[word] += 1
+
+print(word_counter)
+
+# output
+# {'great': 2, 'expectations': 1, 'the': 2, 'adventures': 2, 'of': 2, 
+# 'sherlock': 1, 'holmes': 1, 'gasby': 1, 'hamlet': 1, 'huckleberry': 1, 'fin': 1}
