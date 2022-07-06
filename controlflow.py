@@ -447,3 +447,22 @@ print(word_counter['great'])
 
 # or use the get function to do the same 
 print(word_counter.get('great'))
+
+# using for loop in dictionaries
+
+cast = {
+           "Jerry Seinfeld": "Jerry Seinfeld",
+           "Julia Louis-Dreyfus": "Elaine Benes",
+           "Jason Alexander": "George Costanza",
+           "Michael Richards": "Cosmo Kramer"
+       }
+
+for actors in cast:
+    print(actors)
+
+
+# # output
+# Jerry Seinfeld
+# Julia Louis-Dreyfus
+# Jason Alexander
+# Michael Richards
