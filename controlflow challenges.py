@@ -15,5 +15,5 @@ x,y,z,a,b = calc
 print(x+y+z+a+b)
 
 # if number has 2 digits then x+y
-# # if number has 3 digits the x+y+z
-# # if number has 4 digits the x+y+z+a
+# if number has 3 digits the x+y+z
+# if number has 4 digits the x+y+z+a
