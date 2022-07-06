@@ -5,6 +5,7 @@
 
 
 from ast import If
+from optparse import Values
 
 
 phone_balance = 3
@@ -469,3 +470,16 @@ for key in cast:
 
 # note this example only prints out the keys and not the values
 # yet the dictiolnary has both 
+
+#if u want ur output to remove both the keys and values
+# If you wish to iterate through both keys and values, 
+# you can use the built-in method items like this:
+
+for key, values in cast.items():
+    print(key,values)
+
+# # output 
+# Jerry Seinfeld Jerry Seinfeld
+# Julia Louis-Dreyfus Elaine Benes
+# Jason Alexander George Costanza
+# Michael Richards Cosmo Kramer
