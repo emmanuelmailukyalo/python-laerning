@@ -526,5 +526,3 @@ print(fruits)
 'apples': 4, 'oranges': 19, 'kites': 3, 'sandwiches': 8} 
 
 # use the get function to get the key of sandwiches 
-
-print(fruits.get('sandwiches'))
