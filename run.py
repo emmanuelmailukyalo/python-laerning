@@ -29,4 +29,15 @@ Twinkle, twinkle, little star,\n
 radius = float (input("write the radius of the circle"))
 
 # formula for area of a circle is 22/7 * radius*radius  
-print (3.142857142857143* (radius**2)
+print (3.142857142857143* (radius**2))
+
+
+
+# Write a Python program to display the first and last colors 
+# from the following list. Go to the editor
+# color_list = ["Red","Green","White" ,"Black"]
+
+color_list = ["Red","Green","White" ,"Black"]
+first_color = (color_list[0])
+last_color = (color_list[-1])
+print (first_color,"and", last_color)
