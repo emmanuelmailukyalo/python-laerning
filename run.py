@@ -41,3 +41,11 @@ color_list = ["Red","Green","White" ,"Black"]
 first_color = (color_list[0])
 last_color = (color_list[-1])
 print (first_color,"and", last_color)
+
+
+# Write a Python program to display the first and last colors 
+#  that are input by a user 
+
+colors = str(input("enter at least 4 of ur fav colors you can add more according to ur liking"))
+colors = colors.split()
+print(colors[0], colors[-1])
