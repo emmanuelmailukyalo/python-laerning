@@ -21,3 +21,12 @@ Twinkle, twinkle, little star,\n
                 How I wonder what you are'''
 
 # use the triple quotes to write a multiline sentence 
+
+
+#  Write  a Python program which accepts the radius of a circle 
+# from the user and compute the area.
+
+radius = float (input("write the radius of the circle"))
+
+# formula for area of a circle is 22/7 * radius*radius  
+print (3.142857142857143* (radius**2)
