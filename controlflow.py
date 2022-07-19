@@ -475,7 +475,7 @@ for key in cast:
 
 #if u want ur output to remove both the keys and values
 # If you wish to iterate through both keys and values, 
-# you can use the built-in method items like this:
+# you can use the built-in method (items) like this:
 
 for key, values in cast.items():
     print(key,values)
