@@ -35,7 +35,7 @@ print (3.142857142857143* (radius**2))
 
 # Write a Python program to display the first and last colors 
 # from the following list. Go to the editor
-# color_list = ["Red","Green","White" ,"Black"]
+# color_list = ["Red","Green","White" ,"Black"]..
 
 color_list = ["Red","Green","White" ,"Black"]
 first_color = (color_list[0])
@@ -49,3 +49,7 @@ print (first_color,"and", last_color)
 colors = str(input("enter at least 4 of ur fav colors you can add more according to ur liking"))
 colors = colors.split()
 print(colors[0], colors[-1])
+
+
+number = int(input("enter a whole number"))
+print(number+number,number+number,number,number)
