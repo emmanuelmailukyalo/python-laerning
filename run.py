@@ -35,7 +35,7 @@ print (3.142857142857143* (radius**2))
 
 # Write a Python program to display the first and last colors 
 # from the following list. Go to the editor
-# color_list = ["Red","Green","White" ,"Black"]..
+# color_list = ["Red","Green","White" ,"Black"]
 
 color_list = ["Red","Green","White" ,"Black"]
 first_color = (color_list[0])
