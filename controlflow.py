@@ -27,7 +27,7 @@ if phone_balance < 5:
 
 
 
-# 1 Practice: Which Prize test 
+# Practice: Which Prize 
 
 # Write an if statement that lets a competitor know which of these prizes they won based on 
 # the number of points they scored, which is stored in the integer variable points.
