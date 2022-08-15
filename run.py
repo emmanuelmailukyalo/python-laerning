@@ -50,6 +50,6 @@ colors = str(input("enter at least 4 of ur fav colors you can add more according
 colors = colors.split()
 print(colors[0], colors[-1])
 
-
+# write a program that prints n +nn + nnn 
 number = int(input("enter a whole number"))
 print(number+number,number+number,number,number)
