@@ -1,5 +1,5 @@
 # warming up 
-
+# preparing for intense python scripts 
 
 port = []
 port.append(26)
