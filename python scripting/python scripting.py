@@ -3,7 +3,11 @@
 from netrc import netrc
 # warming up 
 
-net = {'ssh': 23, 'https': 45, 'lan': 33}
-print(net.values())
-print(net.keys())
-print(net['lan'])
+# selections 
+
+
+# create  a program that tells u the number os servers online
+
+servers = (input("no of servers"))
+
+print( "no of servers", servers)
