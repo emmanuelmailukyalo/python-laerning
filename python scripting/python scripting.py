@@ -1,11 +1,7 @@
 # warming up 
-# preparing for intense python scripts 
 
-port = []
-port.append(26)
-port.append(45)
-port.append(55)
-print(len(port))
+from netrc import netrc
+# warming up 
 
-port.remove(26)
-print(port)
+net = {'ssh': 23, 'https': 45, 'lan': 33}
+print(net.keys())
