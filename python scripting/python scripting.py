@@ -1,3 +1,6 @@
+# warming up 
+
+
 port = []
 port.append(26)
 port.append(45)
