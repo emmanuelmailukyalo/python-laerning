@@ -1,4 +1,3 @@
 port = []
-porte = "this is a string"
-
-print(porte)
+port.append(26)
+print(port)
