@@ -6,8 +6,5 @@ from posixpath import split
 
 # iterations 
 
-verse = "invalid syntax. Perhaps you forgot a comma?"
-verses = verse.split()
-
-for verse in verses:
-    print(verse)
+for i in range(1,6):
+    print(i)
