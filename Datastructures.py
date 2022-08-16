@@ -9,11 +9,7 @@
 #it can contain all data types
 
 # list example
-from distutils.log import error
-from os import access
-from tkinter import _Compound
-from tkinter.messagebox import QUESTION
-from xml.dom.minidom import Element
+
 
 
 numbers = [1,2,3,4,5,6,7,8,9,10]
