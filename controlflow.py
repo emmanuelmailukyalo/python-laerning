@@ -591,10 +591,3 @@ while (num+1)**2 < limit:
 nearest_square = num**2
 
 print(nearest_square)
-
-
-
-
-
-
-vbhjbkl,m k,m
