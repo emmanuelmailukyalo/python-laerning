@@ -1,10 +1,14 @@
+# Write a while loop that finds the largest square number less than an integer 
+# limit and stores it in a variable nearest_square. A square number is the product
+#  of an integer multiplied by itself, for example 36 is a square number because it equals 6*6.
 
-# create a program that gives the multiplication of the number by 1- 10
+# For example, if limit is 40, your code should set the nearest_square to 36.
 
-number = int(input("enter a number :"))
+limit = 40
 
-count = 1 
-while count <= 10:
-    product = number * count 
-    print(number, "x",count, "=", product)
-    count += 1
+num = 0
+while (num+1)**2 < limit:
+    num += 1
+nearest_square = num**2
+
+print(nearest_square)
