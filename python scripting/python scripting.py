@@ -23,8 +23,6 @@ for headline in headlines :
     news_ticker += headline + " "
     if len(news_ticker) == 140:
         break
-    else:
-        print("title suppuses required length")
-
 
 print(news_ticker)
+print(len(news_ticker))
