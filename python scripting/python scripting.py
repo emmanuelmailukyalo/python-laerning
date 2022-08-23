@@ -1,14 +1,30 @@
-# Write a while loop that finds the largest square number less than an integer 
-# limit and stores it in a variable nearest_square. A square number is the product
-#  of an integer multiplied by itself, for example 36 is a square number because it equals 6*6.
+# Write a loop with a break statement to create a string, news_ticker, that 
+# is exactly 140 characters long. You should create the news ticker by adding
+# headlines from the headlines list, inserting a space in between each headline.
+# If necessary, truncate the last headline in the middle so that news_ticker is 
+# exactly 140 characters long.
 
-# For example, if limit is 40, your code should set the nearest_square to 36.
+# Remember that break works in both for and while loops. Use whichever 
+# loop seems most appropriate. Consider adding print statements to your
+# code to help you resolve bugs.
 
-limit = 40
+# HINT: modify the headlines list to verify your loop works with different inputs
 
-num = 0
-while (num+1)**2 < limit:
-    num += 1
-nearest_square = num**2
+headlines = ["Local Bear Eaten by Man",
+             "Legislature Announces New Laws",
+             "Peasant Discovers Violence Inherent in System",
+             "Cat Rescues Fireman Stuck in Tree",
+             "Brave Knight Runs Away",
+             "Papperbok Review: Totally Triffic"]
 
-print(nearest_square)
+news_ticker = ""
+# write your loop here
+for headline in headlines :
+    news_ticker += headline + " "
+    if len(news_ticker) == 140:
+        break
+    else:
+        print("title suppuses required length")
+
+
+print(news_ticker)
