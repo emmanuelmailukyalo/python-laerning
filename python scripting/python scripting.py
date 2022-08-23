@@ -1,6 +1,3 @@
-# write a program using break that breaks after 5 loops 
+# create  a program that prints all the items in a list except swift and c 
 
-for i in range (0,7):
-    if i >= 5 :
-        break
-    print(i)
+languages = ["python", "java", "swift", "C", "C++"]
