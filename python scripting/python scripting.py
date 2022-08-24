@@ -1,10 +1,13 @@
-        # zip and enumerate
+x_coord = [23, 53, 2, -12, 95, 103, 14, -5]
+y_coord = [677, 233, 405, 433, 905, 376, 432, 445]
+z_coord = [4, 16, -6, -42, 3, -6, 23, -1]
+labels = ["F", "J", "A", "Q", "Y", "B", "W", "X"]
 
-shop = list(zip(["mercedes-amg", "jeep-wrangler", "jeep-cherokee", "gmc-yukon",],[2e6,4e6,6e6,20e6]))
-print (shop)   #it prints outs the dictionary and the details
+points = []
+# write your for loop here
+# for points,i in zip([labels],[x_coord],[y_coord],[z_coord]):
+for point in zip(labels, x_coord, y_coord, z_coord):
+    print({}:,{} {} {},point)
 
-cars, price = zip(*shop)  # this splits the dict into cars and price
-print(cars)  # prints out cars only 
-
-for deals,shop in enumerate(shop):
-    print(deals, shop)  # prints out the deals in the shop in an ordely format (run to see output)
+for point in points:
+    print(point)
