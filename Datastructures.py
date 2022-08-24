@@ -175,7 +175,7 @@ print(len(a) - len(b))
 # 6 
 
             # dictionaries and identity operators 
-            # dictionary  
+            # dictionary    (to create dictionaries with ease use zip function(controlflow.py))
 # dictionary is mutable  and unorderd
 
 random_dictionary = {'abc':1, 5:"hey"}
