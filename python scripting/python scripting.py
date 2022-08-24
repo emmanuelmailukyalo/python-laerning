@@ -1,4 +1,4 @@
-# zip 
+        # zip and enumerate
 
 shop = list(zip(["mercedes-amg", "jeep-wrangler", "jeep-cherokee", "gmc-yukon",],[2e6,4e6,6e6,20e6]))
 print (shop)   #it prints outs the dictionary and the details
