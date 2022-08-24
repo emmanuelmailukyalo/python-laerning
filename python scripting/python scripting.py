@@ -1,5 +1,8 @@
 # zip 
 
+from tokenize import Number
+
+
 fruits = {
             'pears':1,
             'peaches':1,
@@ -10,3 +13,6 @@ fruits = {
             'kites': 3,
             'sandwiches': 8
          }
+
+name, size  = zip(*fruits)
+print(name)
