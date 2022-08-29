@@ -1,13 +1,12 @@
-x_coord = [23, 53, 2, -12, 95, 103, 14, -5]
-y_coord = [677, 233, 405, 433, 905, 376, 432, 445]
-z_coord = [4, 16, -6, -42, 3, -6, 23, -1]
-labels = ["F", "J", "A", "Q", "Y", "B", "W", "X"]
+# Using zip and dict functions create a dictionary which has its key-value 
+# pairs coming from lst1 and lst2.
 
-points = []
-# write your for loop here
-# for points,i in zip([labels],[x_coord],[y_coord],[z_coord]):
-for point in zip(labels, x_coord, y_coord, z_coord):
-    print({}:,{} {} {},point)
+lst1=["Netflix", "Hulu", "Sling", "Hbo"]
+lst2=[198, 166, 237, 125]
 
-for point in points:
-    print(point)
+#Type your answer here.
+
+
+points= dict(zip(lst1,lst2))
+
+print(points)
