@@ -1,0 +1,6 @@
+def area_circle(radius):
+    pi = 22/7
+    area = pi * radius ** 2
+    return area
+
+print(area_circle(5))
