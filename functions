@@ -3,4 +3,4 @@ def area_circle(radius):
     area = pi * radius ** 2
     return area
 
-print(area_circle(5))
+print(area_circle(1))
