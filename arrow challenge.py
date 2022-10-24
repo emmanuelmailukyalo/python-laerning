@@ -12,6 +12,18 @@ print("  *****")
 
 word = str(input("enter a word"))
 
-if word == "palpaindrome":
+if word == "palindrome":
     print("is palindrome")
 else: print("write palindrome")
+
+
+# print arrow 
+
+print("    *")
+print("   * *")
+print("  *   *")
+print(" *     *")
+print("***   ***")
+print("  *   *")
+print("  *   *")
+print("  *****")
