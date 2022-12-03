@@ -65,7 +65,8 @@ VINIX = ['C', 'MA', 'BA', 'PG', 'CSCO', 'VZ', 'PFE', 'HD', 'INTC', 'T', 'V',
 
 print('C' in VINIX)  # true
 print('gbdg' in VINIX) # false
-print('gbg' not in VINIX) # true
+print('gbg' not in VINIX) # true         (dec 2 ) - if u want to search for a string in
+                                                #  large input u can use 'in' as a search tool
 
 # you can replace obleccts in strings1
 # eg 
@@ -99,8 +100,11 @@ print(min(student))
 
 
         # sorted  data structure
-print(sorted(student))
+print(sorted(student))  
 #['i', 'j', 'm']
+
+# prints string in output in alphabetical order (a-z) or least int to greatest
+#eg 
 
 numbers = [1,2,3,4,5,6]
 print(sorted(numbers))
