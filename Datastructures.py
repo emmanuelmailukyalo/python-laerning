@@ -307,3 +307,4 @@ print(sorted_keys[-1])
 # Dictionary 	        No 	        No** 	        { } or dict() 	{'Jun': 75, 'Jul': 89}
 
 graduated 2/dec/ 2022 
+# power to read
