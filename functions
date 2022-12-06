@@ -54,3 +54,7 @@ def cylinder_volume(height, radius):
     pi = 3.14
     volume = height * pi * radius **2
     return volume
+
+# when defining a function use descriptive words that u can understand 
+# the work of the function 
+# eg area_square, cylinder_volume 
