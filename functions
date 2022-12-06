@@ -38,3 +38,10 @@ def readable_timedelta(days):
 # this is a function
 # the def function is followed by function definition and 
 # ends with a colon
+#rules for functon names are those of variables
+
+# eg 
+def hello_world():
+    print(hello_world)
+
+    
