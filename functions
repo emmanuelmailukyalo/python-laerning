@@ -32,3 +32,7 @@ def readable_timedelta(days):
 # dec  6 
 
 #functions restart 
+
+# the function starts with a header
+# the def function is at the beginning to define that 
+# this is a function
