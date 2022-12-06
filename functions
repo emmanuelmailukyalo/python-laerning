@@ -36,3 +36,5 @@ def readable_timedelta(days):
 # the function starts with a header
 # the def function is at the beginning to define that 
 # this is a function
+# the def function is followed by function definition and 
+# ends with a colon
