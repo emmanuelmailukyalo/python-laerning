@@ -44,4 +44,13 @@ def readable_timedelta(days):
 def hello_world():
     print(hello_world)
 
-    
+# return is used to print output 
+# return is confused with print 
+# the diffs is that print gives output to the console
+# but return provides a value u can work with later in code
+
+
+def cylinder_volume(height, radius):
+    pi = 3.14
+    volume = height * pi * radius **2
+    return volume
