@@ -29,3 +29,7 @@ def cylinder_volume(height, radius):
 # when defining a function use descriptive words that u can understand 
 # the work of the function 
 # eg area_square, cylinder_volume 
+
+def population_density(population,land_area):
+    population_density = population/ land_area
+    return population_density
