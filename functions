@@ -71,3 +71,13 @@ functions that don't have a name.
 
 it is used to create functions that will not be used later in the code 
 """
+
+# diff btwn lambda expression and normal function
+#normal function 
+
+def double(x):
+    return x * 2
+
+# lamda expression of the same 
+
+double = lambda x : x*2 
