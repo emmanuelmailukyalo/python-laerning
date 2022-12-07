@@ -56,3 +56,11 @@ def cylinder_volume(height, radius):
     reveal key details of the function that cannot be achieved by a # comment
     """
     return volume
+
+def hello_world():
+    print(hello_world)
+
+"""this is a function that uses print rather than return
+it can not be re used or called later in the code it only fulfills
+its purpose in this instance.
+"""
