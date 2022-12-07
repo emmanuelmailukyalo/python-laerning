@@ -46,3 +46,13 @@ cylinder_volume(9,10)
 
 # docstrings 
 #is a comment used to explain how a function works and ita t0o br used 
+
+def cylinder_volume(height, radius):
+    pi = 3.1
+    volume = height*radius*pi**2
+    """this is a docstring
+    
+    it explains what is the work of the function.it used when u want to 
+    reveal key details of the function that cannot be achieved by a # comment
+    """
+    return volume
