@@ -81,3 +81,10 @@ def double(x):
 # lamda expression of the same 
 
 double = lambda x : x*2 
+
+# lamba expression for two arguments 
+
+multiply = lambda x,y : x * y
+
+multiply(3, 5)
+#>>> 15 (output)
