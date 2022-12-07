@@ -64,3 +64,10 @@ def hello_world():
 it can not be re used or called later in the code it only fulfills
 its purpose in this instance.
 """
+
+# LAMBDA EXPRESSIONS 
+"""u can use lambda expressions to create anonymous functions.that is
+functions that don't have a name.
+
+it is used to create functions that will not be used later in the code 
+"""
