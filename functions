@@ -35,9 +35,10 @@ def population_density(population,land_area):
     return population_density
 
 
-eggs_count = 0
+def cylinder_volume(height, radius):
+    pi = 3.14
+    volume = height*radius*pi**2
+    return volume
 
-def buy_eggs():
-    eggs_count += input
-
-    
+cylinder_volume(9,10)
+# >>> returns output 
