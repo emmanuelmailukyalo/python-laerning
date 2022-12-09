@@ -1,2 +1,5 @@
-name = input("enter your name")
-print ("your name is" +  name)
+
+
+numex = int(input("enter a number"))
+numed = numex * 20
+print(numed)
